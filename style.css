@@ -12,7 +12,28 @@
     --small-text-color: #ffffff;
     --very-small-text-color: #999999;
 }
+.banner{
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 10px 100px rgb(22, 74, 123));
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.ss1 {
+    right: 0;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 10px 100px rgb(22, 74, 123));
+}
+.ss2 {
+    left: 0;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(0px 10px 100px rgb(22, 74, 123));
+}
 /* random */
 h1 {
     color: var(--heading-color);
